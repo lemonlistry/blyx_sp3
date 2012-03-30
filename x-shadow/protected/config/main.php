@@ -26,21 +26,23 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',
 			'tablePrefix' => 'tbl_',
 		),
+		*/
 		// uncomment the following to use a MySQL database
-		/*
+		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=blog',
+			'connectionString' => 'mysql:host=localhost;dbname=x-shadow',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => '123456',
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 		),
-		*/
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
